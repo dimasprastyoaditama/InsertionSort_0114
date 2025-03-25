@@ -63,4 +63,19 @@ cout << "Total Pass = " << n - 1 << endl; // count element movement
 cout << "==================================" << endl; // Output ke layar
 cout << "Element Array yang telah tersusun" << endl; // Output ke layar
 cout << "==================================" << endl; // Output ke layar
+
+for (int j = 0; j < n; j++)
+{ // Looping dengan j dimulai dari 0 hingga n-1
+cout << array[j] << endl; // Output ke layar
+}
+cout << endl; // Output baris kosong
+}
+
+int main()
+{
+input();
+insertionSort();
+display();
+system("Pause");
+return 0;
 }
